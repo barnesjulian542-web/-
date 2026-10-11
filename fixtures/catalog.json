@@ -1,0 +1,415 @@
+{
+  "product": "云桥协同（虚构）",
+  "version": "3.2",
+  "synthetic": true,
+  "documents": [
+    {
+      "id": "DOC-SSO-CLOUD",
+      "title": "云版企业微信登录说明",
+      "capability": "wecom_sso",
+      "aliases": [
+        "企业微信",
+        "企微",
+        "WeCom"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 企业云版支持企业微信单点登录，需要由企业管理员配置应用并绑定企业身份。",
+      "version": "3.2",
+      "deployment": [
+        "cloud"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-SSO-PRIVATE",
+      "title": "私有版身份集成范围",
+      "capability": "wecom_sso",
+      "aliases": [
+        "企业微信",
+        "企微",
+        "WeCom"
+      ],
+      "stance": "unsupported",
+      "content": "云桥协同 3.2 私有部署版未提供企业微信登录连接器，不得将云版支持情况套用到私有版。",
+      "version": "3.2",
+      "deployment": [
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-EXPORT",
+      "title": "Excel导出能力说明",
+      "capability": "excel_export",
+      "aliases": [
+        "Excel",
+        "xlsx",
+        "表格导出"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 支持将有访问权限的项目任务列表导出为 Excel。导出字段由当前列表配置决定，未提供跨全部模块的统一导出。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-DEPLOY",
+      "title": "私有部署交付说明",
+      "capability": "private_deploy",
+      "aliases": [
+        "私有化",
+        "私有部署",
+        "本地部署"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 企业版可提供私有部署，须另行评估运行环境、交付范围与报价。本文未承诺部署周期。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-AI-ROADMAP",
+      "title": "AI会议总结路线图",
+      "capability": "ai_summary",
+      "aliases": [
+        "AI会议总结",
+        "会议总结",
+        "智能纪要",
+        "AI纪要"
+      ],
+      "stance": "pending",
+      "content": "AI会议总结处于内部探索阶段，尚未发布，暂无已批准的交付日期。路线图不构成交付承诺。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "roadmap",
+      "approved": false,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-HK-RELEASE",
+      "title": "香港数据驻留发布说明",
+      "capability": "data_residency",
+      "aliases": [
+        "香港",
+        "数据驻留",
+        "境外存储"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 香港区域已开放，可选择香港数据驻留。",
+      "version": "3.2",
+      "deployment": [
+        "cloud"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "区域产品组（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-HK-OPS",
+      "title": "香港区域运维确认单",
+      "capability": "data_residency",
+      "aliases": [
+        "香港",
+        "数据驻留",
+        "境外存储"
+      ],
+      "stance": "unsupported",
+      "content": "截至本确认单，云桥协同 3.2 香港区域尚未开放，不能对客户承诺香港数据驻留。",
+      "version": "3.2",
+      "deployment": [
+        "cloud"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "运维负责人（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-LDAP",
+      "title": "3.2身份能力变更",
+      "capability": "ldap",
+      "aliases": [
+        "LDAP",
+        "目录服务"
+      ],
+      "stance": "unsupported",
+      "content": "云桥协同 3.2 已停止提供 LDAP 登录，历史答复中的支持描述不再适用于此版本。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-LDAP-OLD",
+      "title": "2.5历史售前答复",
+      "capability": "ldap",
+      "aliases": [
+        "LDAP",
+        "目录服务"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 2.5 支持 LDAP 登录。此历史答复已归档，仅供追溯。",
+      "version": "2.5",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "archived",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-OFFLINE",
+      "title": "客户端支持范围",
+      "capability": "offline_client",
+      "aliases": [
+        "离线桌面",
+        "离线客户端",
+        "离线使用"
+      ],
+      "stance": "unsupported",
+      "content": "云桥协同 3.2 不提供可离线使用的桌面客户端；网页工作区需要网络连接。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-SLA",
+      "title": "性能与SLA答复原则",
+      "capability": "performance",
+      "aliases": [
+        "响应时间",
+        "SLA",
+        "性能",
+        "延迟"
+      ],
+      "stance": "pending",
+      "content": "响应时间与 SLA 须按操作、数据规模及客户合同单独确认。本资料没有所有页面统一响应时间的性能承诺。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-AUDIT-CLOUD",
+      "title": "云版审计日志说明",
+      "capability": "audit_log",
+      "aliases": [
+        "审计日志",
+        "操作日志"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 企业云版提供审计日志，默认保留 180天。访问日志需管理员权限。",
+      "version": "3.2",
+      "deployment": [
+        "cloud"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-AUDIT-PRIVATE",
+      "title": "私有版审计日志说明",
+      "capability": "audit_log",
+      "aliases": [
+        "审计日志",
+        "操作日志"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 私有部署版提供审计日志，保留期限由部署方配置与合同确认。",
+      "version": "3.2",
+      "deployment": [
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-DR-INTERNAL",
+      "title": "内部容灾评估单",
+      "capability": "disaster_recovery",
+      "aliases": [
+        "容灾",
+        "跨区域",
+        "灾备"
+      ],
+      "stance": "unsupported",
+      "content": "云桥协同 3.2 未提供自动跨区域容灾切换。该内部评估不能未经批准对外分发。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "reviewer",
+      "owner": "架构负责人（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-API",
+      "title": "开放API能力",
+      "capability": "open_api",
+      "aliases": [
+        "OpenAPI",
+        "开放API",
+        "接口集成"
+      ],
+      "stance": "supported",
+      "content": "云桥协同 3.2 提供任务查询与创建的 OpenAPI，须申请应用凭证并按接口权限调用；配额需单独确认。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-PRICE",
+      "title": "报价确认流程",
+      "capability": "pricing",
+      "aliases": [
+        "报价",
+        "价格",
+        "免费",
+        "收费"
+      ],
+      "stance": "pending",
+      "content": "客户报价需由销售负责人依据采购范围单独批准；本资料未公布可直接承诺的客户价格。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-SOC",
+      "title": "认证状态答复原则",
+      "capability": "certification",
+      "aliases": [
+        "SOC2",
+        "SOC 2",
+        "认证",
+        "ISO"
+      ],
+      "stance": "pending",
+      "content": "云桥协同模拟资料没有提供可核验的认证证明；不得据此声明已获得任何特定认证。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": true,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    },
+    {
+      "id": "DOC-EXPORT-SALES",
+      "title": "未审核销售笔记",
+      "capability": "excel_export",
+      "aliases": [
+        "Excel",
+        "xlsx",
+        "表格导出"
+      ],
+      "stance": "supported",
+      "content": "销售笔记声称可以导出全部模块，尚未由产品负责人审核，不能作为承诺依据。",
+      "version": "3.2",
+      "deployment": [
+        "cloud",
+        "private"
+      ],
+      "lifecycle": "current",
+      "approved": false,
+      "access": "sales",
+      "owner": "产品负责人 · 林悦（模拟）",
+      "updated_at": "2026-10-01",
+      "synthetic": true
+    }
+  ]
+}

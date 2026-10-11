@@ -1,0 +1,17 @@
+2026-10-11 19:51:58.921 Uvicorn server started on 127.0.0.1:8504
+2026-10-11 20:01:40.787 Uncaught app execution
+Traceback (most recent call last):
+  File "F:\project\qiye\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "F:\project\qiye\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\project\qiye\app.py", line 22, in <module>
+    page.run()
+    ~~~~~~~~^^
+  File "F:\project\qiye\.venv\Lib\site-packages\streamlit\navigation\page.py", line 502, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\project\qiye\app_pages\workbench.py", line 5, in <module>
+    from presales.models import CAPABILITY_LABELS, FLAG_LABELS, STATUS_LABELS
+ImportError: cannot import name 'CAPABILITY_LABELS' from 'presales.models' (F:\project\qiye\presales\models.py)

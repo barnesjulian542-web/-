@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8504/",
+  "status": 200,
+  "health_status": 200,
+  "health_body": "ok",
+  "page_errors": [],
+  "checked": [
+    "initial_form",
+    "preset_submit",
+    "results_render",
+    "mobile_width"
+  ],
+  "human_approval_submitted": false
+}

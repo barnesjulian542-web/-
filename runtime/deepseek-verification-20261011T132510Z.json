@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-11T13:25:12.690048+00:00",
+  "task_id": "c493acd25e67",
+  "before_status": "error",
+  "after_status": "awaiting_review",
+  "error": "",
+  "stats": {
+    "model_calls": 1,
+    "input_tokens": 685,
+    "output_tokens": 61,
+    "configured_model": "DeepSeek-V4.1-Flash",
+    "api_model": "deepseek-flash",
+    "seconds": 2.0082,
+    "retrieval": "capability_alias_and_character_terms",
+    "catalog_hash": "1e4535c6fdc84ea46cfef77578428a5c3c2e6d2f9f538fe2617e36a19b62ede7",
+    "synthetic": true
+  },
+  "items": [
+    {
+      "id": "R01",
+      "status": "supported",
+      "citations": [
+        "DOC-SSO-CLOUD"
+      ]
+    }
+  ],
+  "prior_events_preserved": true,
+  "events_before": 26,
+  "events_after": 28,
+  "env_unchanged": true,
+  "backup_directory": "F:\\project\\qiye\\runtime\\backups\\before-deepseek-fix-20261011T132510Z"
+}

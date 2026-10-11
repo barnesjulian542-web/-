@@ -1,0 +1,1249 @@
+{
+  "generated_at": "2026-10-11T11:50:47.666730+00:00",
+  "mode": "demo",
+  "synthetic": true,
+  "model_calls": 0,
+  "total": 26,
+  "passed": 26,
+  "catalog_hash": "1e4535c6fdc84ea46cfef77578428a5c3c2e6d2f9f538fe2617e36a19b62ede7",
+  "cases_hash": "4779fa27833c1ed5d27f0c2794193a7531c4612e700ef382d022709b650ee45c",
+  "cases": [
+    {
+      "id": "E01",
+      "text": "我们希望员工使用企微进入工作区",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "supported"
+      ],
+      "actual": [
+        "supported"
+      ],
+      "passed": true,
+      "seconds": 0.016028,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "我们希望员工使用企微进入工作区",
+            "capability": "wecom_sso",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 企业云版支持企业微信单点登录，需要由企业管理员配置应用并绑定企业身份。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-SSO-CLOUD",
+              "title": "云版企业微信登录说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业云版支持企业微信单点登录，需要由企业管理员配置应用并绑定企业身份。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E02",
+      "text": "我们希望员工使用企微进入工作区",
+      "deployment": "private",
+      "role": "sales",
+      "expected": [
+        "unsupported"
+      ],
+      "actual": [
+        "unsupported"
+      ],
+      "passed": true,
+      "seconds": 0.000267,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "我们希望员工使用企微进入工作区",
+            "capability": "wecom_sso",
+            "parameter_uncertain": false
+          },
+          "status": "unsupported",
+          "answer": "当前资料说明：云桥协同 3.2 私有部署版未提供企业微信登录连接器，不得将云版支持情况套用到私有版。",
+          "reason": "当前已审核资料明确说明能力未提供。",
+          "citations": [
+            {
+              "doc_id": "DOC-SSO-PRIVATE",
+              "title": "私有版身份集成范围",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 私有部署版未提供企业微信登录连接器，不得将云版支持情况套用到私有版。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E03",
+      "text": "客户需要xlsx表格导出",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "supported"
+      ],
+      "actual": [
+        "supported"
+      ],
+      "passed": true,
+      "seconds": 0.000243,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "客户需要xlsx表格导出",
+            "capability": "excel_export",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 支持将有访问权限的项目任务列表导出为 Excel。导出字段由当前列表配置决定，未提供跨全部模块的统一导出。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-EXPORT",
+              "title": "Excel导出能力说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 支持将有访问权限的项目任务列表导出为 Excel。导出字段由当前列表配置决定，未提供跨全部模块的统一导出。",
+              "lifecycle": "current",
+              "authoritative": true
+            },
+            {
+              "doc_id": "DOC-EXPORT-SALES",
+              "title": "未审核销售笔记",
+              "version": "3.2",
+              "quote": "销售笔记声称可以导出全部模块，尚未由产品负责人审核，不能作为承诺依据。",
+              "lifecycle": "current",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "unapproved"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E04",
+      "text": "客户需要Excel导出全部模块",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000223,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "客户需要Excel导出全部模块",
+            "capability": "excel_export",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-EXPORT",
+              "title": "Excel导出能力说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 支持将有访问权限的项目任务列表导出为 Excel。导出字段由当前列表配置决定，未提供跨全部模块的统一导出。",
+              "lifecycle": "current",
+              "authoritative": true
+            },
+            {
+              "doc_id": "DOC-EXPORT-SALES",
+              "title": "未审核销售笔记",
+              "version": "3.2",
+              "quote": "销售笔记声称可以导出全部模块，尚未由产品负责人审核，不能作为承诺依据。",
+              "lifecycle": "current",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "unapproved",
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E05",
+      "text": "是否可以私有化部署",
+      "deployment": "private",
+      "role": "sales",
+      "expected": [
+        "supported"
+      ],
+      "actual": [
+        "supported"
+      ],
+      "passed": true,
+      "seconds": 0.000188,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "是否可以私有化部署",
+            "capability": "private_deploy",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 企业版可提供私有部署，须另行评估运行环境、交付范围与报价。本文未承诺部署周期。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-DEPLOY",
+              "title": "私有部署交付说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业版可提供私有部署，须另行评估运行环境、交付范围与报价。本文未承诺部署周期。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E06",
+      "text": "能否免费提供私有化部署",
+      "deployment": "private",
+      "role": "sales",
+      "expected": [
+        "pending",
+        "pending"
+      ],
+      "actual": [
+        "pending",
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000244,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "能否免费提供私有化部署",
+            "capability": "private_deploy",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-DEPLOY",
+              "title": "私有部署交付说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业版可提供私有部署，须另行评估运行环境、交付范围与报价。本文未承诺部署周期。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        },
+        {
+          "requirement": {
+            "id": "R02",
+            "text": "能否免费提供私有化部署",
+            "capability": "pricing",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-PRICE",
+              "title": "报价确认流程",
+              "version": "3.2",
+              "quote": "客户报价需由销售负责人依据采购范围单独批准；本资料未公布可直接承诺的客户价格。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E07",
+      "text": "私有化部署能否在3天内完成",
+      "deployment": "private",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000197,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "私有化部署能否在3天内完成",
+            "capability": "private_deploy",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-DEPLOY",
+              "title": "私有部署交付说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业版可提供私有部署，须另行评估运行环境、交付范围与报价。本文未承诺部署周期。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E08",
+      "text": "能否自动生成智能纪要",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000186,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "能否自动生成智能纪要",
+            "capability": "ai_summary",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。仅有路线图信息，不能视为已上线能力或交付承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "仅有路线图信息，不能视为已上线能力或交付承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-AI-ROADMAP",
+              "title": "AI会议总结路线图",
+              "version": "3.2",
+              "quote": "AI会议总结处于内部探索阶段，尚未发布，暂无已批准的交付日期。路线图不构成交付承诺。",
+              "lifecycle": "roadmap",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "roadmap",
+            "unapproved",
+            "missing"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E09",
+      "text": "希望AI会议总结已经可用",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000173,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "希望AI会议总结已经可用",
+            "capability": "ai_summary",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。仅有路线图信息，不能视为已上线能力或交付承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "仅有路线图信息，不能视为已上线能力或交付承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-AI-ROADMAP",
+              "title": "AI会议总结路线图",
+              "version": "3.2",
+              "quote": "AI会议总结处于内部探索阶段，尚未发布，暂无已批准的交付日期。路线图不构成交付承诺。",
+              "lifecycle": "roadmap",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "roadmap",
+            "unapproved",
+            "missing"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E10",
+      "text": "数据驻留在香港是否可用",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000196,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "数据驻留在香港是否可用",
+            "capability": "data_residency",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。当前已审核资料结论不一致，需要产品负责人核对。我们将在负责人核对后提供正式答复。",
+          "reason": "当前已审核资料结论不一致，需要产品负责人核对。",
+          "citations": [
+            {
+              "doc_id": "DOC-HK-RELEASE",
+              "title": "香港数据驻留发布说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 香港区域已开放，可选择香港数据驻留。",
+              "lifecycle": "current",
+              "authoritative": true
+            },
+            {
+              "doc_id": "DOC-HK-OPS",
+              "title": "香港区域运维确认单",
+              "version": "3.2",
+              "quote": "截至本确认单，云桥协同 3.2 香港区域尚未开放，不能对客户承诺香港数据驻留。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "conflict"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E11",
+      "text": "客户还需要LDAP登录",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "unsupported"
+      ],
+      "actual": [
+        "unsupported"
+      ],
+      "passed": true,
+      "seconds": 0.000195,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "客户还需要LDAP登录",
+            "capability": "ldap",
+            "parameter_uncertain": false
+          },
+          "status": "unsupported",
+          "answer": "当前资料说明：云桥协同 3.2 已停止提供 LDAP 登录，历史答复中的支持描述不再适用于此版本。",
+          "reason": "当前已审核资料明确说明能力未提供。",
+          "citations": [
+            {
+              "doc_id": "DOC-LDAP",
+              "title": "3.2身份能力变更",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 已停止提供 LDAP 登录，历史答复中的支持描述不再适用于此版本。",
+              "lifecycle": "current",
+              "authoritative": true
+            },
+            {
+              "doc_id": "DOC-LDAP-OLD",
+              "title": "2.5历史售前答复",
+              "version": "2.5",
+              "quote": "云桥协同 2.5 支持 LDAP 登录。此历史答复已归档，仅供追溯。",
+              "lifecycle": "archived",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "historical"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E12",
+      "text": "是否提供离线桌面客户端",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "unsupported"
+      ],
+      "actual": [
+        "unsupported"
+      ],
+      "passed": true,
+      "seconds": 0.000176,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "是否提供离线桌面客户端",
+            "capability": "offline_client",
+            "parameter_uncertain": false
+          },
+          "status": "unsupported",
+          "answer": "当前资料说明：云桥协同 3.2 不提供可离线使用的桌面客户端；网页工作区需要网络连接。",
+          "reason": "当前已审核资料明确说明能力未提供。",
+          "citations": [
+            {
+              "doc_id": "DOC-OFFLINE",
+              "title": "客户端支持范围",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 不提供可离线使用的桌面客户端；网页工作区需要网络连接。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E13",
+      "text": "需要离线桌面客户端支持100人",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "unsupported"
+      ],
+      "actual": [
+        "unsupported"
+      ],
+      "passed": true,
+      "seconds": 0.000172,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "需要离线桌面客户端支持100人",
+            "capability": "offline_client",
+            "parameter_uncertain": false
+          },
+          "status": "unsupported",
+          "answer": "当前资料说明：云桥协同 3.2 不提供可离线使用的桌面客户端；网页工作区需要网络连接。",
+          "reason": "当前已审核资料明确说明能力未提供。",
+          "citations": [
+            {
+              "doc_id": "DOC-OFFLINE",
+              "title": "客户端支持范围",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 不提供可离线使用的桌面客户端；网页工作区需要网络连接。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E14",
+      "text": "所有页面响应时间必须小于2秒",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000174,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "所有页面响应时间必须小于2秒",
+            "capability": "performance",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-SLA",
+              "title": "性能与SLA答复原则",
+              "version": "3.2",
+              "quote": "响应时间与 SLA 须按操作、数据规模及客户合同单独确认。本资料没有所有页面统一响应时间的性能承诺。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E15",
+      "text": "客户要求明确SLA",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000169,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "客户要求明确SLA",
+            "capability": "performance",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。没有足以确认本项完整要求的当前已审核资料。我们将在负责人核对后提供正式答复。",
+          "reason": "没有足以确认本项完整要求的当前已审核资料。",
+          "citations": [
+            {
+              "doc_id": "DOC-SLA",
+              "title": "性能与SLA答复原则",
+              "version": "3.2",
+              "quote": "响应时间与 SLA 须按操作、数据规模及客户合同单独确认。本资料没有所有页面统一响应时间的性能承诺。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E16",
+      "text": "是否有审计日志",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "supported"
+      ],
+      "actual": [
+        "supported"
+      ],
+      "passed": true,
+      "seconds": 0.000178,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "是否有审计日志",
+            "capability": "audit_log",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 企业云版提供审计日志，默认保留 180天。访问日志需管理员权限。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-AUDIT-CLOUD",
+              "title": "云版审计日志说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业云版提供审计日志，默认保留 180天。访问日志需管理员权限。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E17",
+      "text": "审计日志应保留180天",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "supported"
+      ],
+      "actual": [
+        "supported"
+      ],
+      "passed": true,
+      "seconds": 0.000206,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "审计日志应保留180天",
+            "capability": "audit_log",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 企业云版提供审计日志，默认保留 180天。访问日志需管理员权限。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-AUDIT-CLOUD",
+              "title": "云版审计日志说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业云版提供审计日志，默认保留 180天。访问日志需管理员权限。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E18",
+      "text": "审计日志应永久保留",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000174,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "审计日志应永久保留",
+            "capability": "audit_log",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-AUDIT-CLOUD",
+              "title": "云版审计日志说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业云版提供审计日志，默认保留 180天。访问日志需管理员权限。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E19",
+      "text": "自动跨区域容灾切换是否可用",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000152,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "自动跨区域容灾切换是否可用",
+            "capability": "disaster_recovery",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。没有足以确认本项完整要求的当前已审核资料。我们将在负责人核对后提供正式答复。",
+          "reason": "没有足以确认本项完整要求的当前已审核资料。",
+          "citations": [],
+          "flags": [
+            "missing"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E20",
+      "text": "自动跨区域容灾切换是否可用",
+      "deployment": "cloud",
+      "role": "reviewer",
+      "expected": [
+        "unsupported"
+      ],
+      "actual": [
+        "unsupported"
+      ],
+      "passed": true,
+      "seconds": 0.000172,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "自动跨区域容灾切换是否可用",
+            "capability": "disaster_recovery",
+            "parameter_uncertain": false
+          },
+          "status": "unsupported",
+          "answer": "当前资料说明：云桥协同 3.2 未提供自动跨区域容灾切换。该内部评估不能未经批准对外分发。",
+          "reason": "当前已审核资料明确说明能力未提供。",
+          "citations": [
+            {
+              "doc_id": "DOC-DR-INTERNAL",
+              "title": "内部容灾评估单",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 未提供自动跨区域容灾切换。该内部评估不能未经批准对外分发。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E21",
+      "text": "是否支持月球基地通信",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000154,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "是否支持月球基地通信",
+            "capability": "unknown",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。没有足以确认本项完整要求的当前已审核资料。我们将在负责人核对后提供正式答复。",
+          "reason": "没有足以确认本项完整要求的当前已审核资料。",
+          "citations": [],
+          "flags": [
+            "missing"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E22",
+      "text": "需要OpenAPI接口集成",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "supported"
+      ],
+      "actual": [
+        "supported"
+      ],
+      "passed": true,
+      "seconds": 0.00017,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "需要OpenAPI接口集成",
+            "capability": "open_api",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 提供任务查询与创建的 OpenAPI，须申请应用凭证并按接口权限调用；配额需单独确认。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-API",
+              "title": "开放API能力",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 提供任务查询与创建的 OpenAPI，须申请应用凭证并按接口权限调用；配额需单独确认。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E23",
+      "text": "OpenAPI是否支持删除任务",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.00017,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "OpenAPI是否支持删除任务",
+            "capability": "open_api",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。可用资料未完整支持客户要求中的参数或承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "可用资料未完整支持客户要求中的参数或承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-API",
+              "title": "开放API能力",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 提供任务查询与创建的 OpenAPI，须申请应用凭证并按接口权限调用；配额需单独确认。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [
+            "parameter"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E24",
+      "text": "需要SOC2认证证明",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000165,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "需要SOC2认证证明",
+            "capability": "certification",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。没有足以确认本项完整要求的当前已审核资料。我们将在负责人核对后提供正式答复。",
+          "reason": "没有足以确认本项完整要求的当前已审核资料。",
+          "citations": [
+            {
+              "doc_id": "DOC-SOC",
+              "title": "认证状态答复原则",
+              "version": "3.2",
+              "quote": "云桥协同模拟资料没有提供可核验的认证证明；不得据此声明已获得任何特定认证。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E25",
+      "text": "请给出报价",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "pending"
+      ],
+      "actual": [
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000163,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "请给出报价",
+            "capability": "pricing",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。没有足以确认本项完整要求的当前已审核资料。我们将在负责人核对后提供正式答复。",
+          "reason": "没有足以确认本项完整要求的当前已审核资料。",
+          "citations": [
+            {
+              "doc_id": "DOC-PRICE",
+              "title": "报价确认流程",
+              "version": "3.2",
+              "quote": "客户报价需由销售负责人依据采购范围单独批准；本资料未公布可直接承诺的客户价格。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "E26",
+      "text": "需要企业微信登录、Excel导出和AI会议总结",
+      "deployment": "cloud",
+      "role": "sales",
+      "expected": [
+        "supported",
+        "supported",
+        "pending"
+      ],
+      "actual": [
+        "supported",
+        "supported",
+        "pending"
+      ],
+      "passed": true,
+      "seconds": 0.000321,
+      "items": [
+        {
+          "requirement": {
+            "id": "R01",
+            "text": "需要企业微信登录、Excel导出和AI会议总结",
+            "capability": "wecom_sso",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 企业云版支持企业微信单点登录，需要由企业管理员配置应用并绑定企业身份。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-SSO-CLOUD",
+              "title": "云版企业微信登录说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 企业云版支持企业微信单点登录，需要由企业管理员配置应用并绑定企业身份。",
+              "lifecycle": "current",
+              "authoritative": true
+            }
+          ],
+          "flags": [],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        },
+        {
+          "requirement": {
+            "id": "R02",
+            "text": "需要企业微信登录、Excel导出和AI会议总结",
+            "capability": "excel_export",
+            "parameter_uncertain": false
+          },
+          "status": "supported",
+          "answer": "当前资料确认：云桥协同 3.2 支持将有访问权限的项目任务列表导出为 Excel。导出字段由当前列表配置决定，未提供跨全部模块的统一导出。",
+          "reason": "当前版本、所选部署方式的已审核资料提供依据。",
+          "citations": [
+            {
+              "doc_id": "DOC-EXPORT",
+              "title": "Excel导出能力说明",
+              "version": "3.2",
+              "quote": "云桥协同 3.2 支持将有访问权限的项目任务列表导出为 Excel。导出字段由当前列表配置决定，未提供跨全部模块的统一导出。",
+              "lifecycle": "current",
+              "authoritative": true
+            },
+            {
+              "doc_id": "DOC-EXPORT-SALES",
+              "title": "未审核销售笔记",
+              "version": "3.2",
+              "quote": "销售笔记声称可以导出全部模块，尚未由产品负责人审核，不能作为承诺依据。",
+              "lifecycle": "current",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "unapproved"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        },
+        {
+          "requirement": {
+            "id": "R03",
+            "text": "需要企业微信登录、Excel导出和AI会议总结",
+            "capability": "ai_summary",
+            "parameter_uncertain": false
+          },
+          "status": "pending",
+          "answer": "本项尚待确认。仅有路线图信息，不能视为已上线能力或交付承诺。我们将在负责人核对后提供正式答复。",
+          "reason": "仅有路线图信息，不能视为已上线能力或交付承诺。",
+          "citations": [
+            {
+              "doc_id": "DOC-AI-ROADMAP",
+              "title": "AI会议总结路线图",
+              "version": "3.2",
+              "quote": "AI会议总结处于内部探索阶段，尚未发布，暂无已批准的交付日期。路线图不构成交付承诺。",
+              "lifecycle": "roadmap",
+              "authoritative": false
+            }
+          ],
+          "flags": [
+            "roadmap",
+            "unapproved",
+            "missing"
+          ],
+          "reviewer_action": null,
+          "reviewer_note": "",
+          "reviewed_answer": null
+        }
+      ],
+      "error": null
+    }
+  ],
+  "limitations": "规则回归案例，未进行真实模型评测或真实用户效率验证；不代表语义泛化能力。"
+}

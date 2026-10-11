@@ -1,0 +1,32 @@
+{
+  "status": 200,
+  "errors": [],
+  "buttons": [
+    "",
+    "",
+    "Deploy",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "uploadUpload",
+    "play_arrow开始核验"
+  ],
+  "hit": {
+    "rect": {
+      "x": 413,
+      "y": 953.578125,
+      "width": 106,
+      "height": 40,
+      "top": 953.578125,
+      "right": 519,
+      "bottom": 993.578125,
+      "left": 413
+    },
+    "pointer": "auto",
+    "hit": "<p>开始核验</p>"
+  },
+  "body": "fact_check\n\n需求核验\n\nlibrary_books\n\n产品证据库\n\nassignment\n\n测试工单\n\nanalytics\n\n评测与项目说明\n\nfact_check\n有据\n\n让每一项客户答复都有依据\n\n演示身份\n\n运行模式\n\n身份切换用于本地角色演示。全部企业、人员和产品资料均为模拟数据。\n\nDeploy\nfact_check\n售前需求核验\n\n从客户要求到产品证据，再到可审核的答复。云桥协同 · 3.2 · 模拟产品\n\n客户核验任务\n\n0\n\n待人工审核\n\n0\n\n审核已完成\n\n0\n\n已记录能力缺口\n\n0\n\nadd_circle\n\n新建客户核验\n\n示例客户问卷\n\n客户名称\n\n目标部署方式\n\n客户需求清单\n\n或导入需求 CSV\n\nupload\n\nUpload\n\n1MB per file • CSV\n\n离线演示按已知能力与资料规则核验；真实模型模式用于抽取需求，需本项目单独配置。\n\nplay_arrow\n\n开始核验\n\n从一份客户需求开始\n\n选择示例问卷并点击 开始核验。系统会保留需求原文，展示能力结论与资料来源。\n\n建议先体验西岭科技问卷：包含已支持、明确不支持、路线图、参数缺失和资料冲突。"
+}

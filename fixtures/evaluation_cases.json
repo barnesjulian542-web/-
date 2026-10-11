@@ -1,0 +1,32 @@
+{
+  "synthetic": true,
+  "purpose": "固定合成开发案例，用于规则回归，非盲测或模型准确率",
+  "cases": [
+    {"id":"E01","text":"我们希望员工使用企微进入工作区","deployment":"cloud","role":"sales","expected":["supported"]},
+    {"id":"E02","text":"我们希望员工使用企微进入工作区","deployment":"private","role":"sales","expected":["unsupported"]},
+    {"id":"E03","text":"客户需要xlsx表格导出","deployment":"cloud","role":"sales","expected":["supported"]},
+    {"id":"E04","text":"客户需要Excel导出全部模块","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E05","text":"是否可以私有化部署","deployment":"private","role":"sales","expected":["supported"]},
+    {"id":"E06","text":"能否免费提供私有化部署","deployment":"private","role":"sales","expected":["pending","pending"]},
+    {"id":"E07","text":"私有化部署能否在3天内完成","deployment":"private","role":"sales","expected":["pending"]},
+    {"id":"E08","text":"能否自动生成智能纪要","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E09","text":"希望AI会议总结已经可用","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E10","text":"数据驻留在香港是否可用","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E11","text":"客户还需要LDAP登录","deployment":"cloud","role":"sales","expected":["unsupported"]},
+    {"id":"E12","text":"是否提供离线桌面客户端","deployment":"cloud","role":"sales","expected":["unsupported"]},
+    {"id":"E13","text":"需要离线桌面客户端支持100人","deployment":"cloud","role":"sales","expected":["unsupported"]},
+    {"id":"E14","text":"所有页面响应时间必须小于2秒","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E15","text":"客户要求明确SLA","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E16","text":"是否有审计日志","deployment":"cloud","role":"sales","expected":["supported"]},
+    {"id":"E17","text":"审计日志应保留180天","deployment":"cloud","role":"sales","expected":["supported"]},
+    {"id":"E18","text":"审计日志应永久保留","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E19","text":"自动跨区域容灾切换是否可用","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E20","text":"自动跨区域容灾切换是否可用","deployment":"cloud","role":"reviewer","expected":["unsupported"]},
+    {"id":"E21","text":"是否支持月球基地通信","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E22","text":"需要OpenAPI接口集成","deployment":"cloud","role":"sales","expected":["supported"]},
+    {"id":"E23","text":"OpenAPI是否支持删除任务","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E24","text":"需要SOC2认证证明","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E25","text":"请给出报价","deployment":"cloud","role":"sales","expected":["pending"]},
+    {"id":"E26","text":"需要企业微信登录、Excel导出和AI会议总结","deployment":"cloud","role":"sales","expected":["supported","supported","pending"]}
+  ]
+}

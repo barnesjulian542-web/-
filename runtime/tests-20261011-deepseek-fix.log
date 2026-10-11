@@ -1,0 +1,60 @@
+test_approval_is_disabled_for_sales_and_works_for_reviewer (test_app.AppTests.test_approval_is_disabled_for_sales_and_works_for_reviewer) ... 2026-10-11 21:24:23.864 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_initial_page_and_submit_preset (test_app.AppTests.test_initial_page_and_submit_preset) ... 2026-10-11 21:24:25.310 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_knowledge_and_ticket_pages_load (test_app.AppTests.test_knowledge_and_ticket_pages_load) ... 2026-10-11 21:24:25.557 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_api_id_also_uses_compatible_structured_extraction (test_deepseek_adapter.DeepSeekAdapterTests.test_api_id_also_uses_compatible_structured_extraction) ... langchain-openai injected a custom httpx transport to apply `http_socket_options`, which disables httpx's proxy auto-detection (HTTP_PROXY, HTTPS_PROXY, http_proxy, https_proxy set in environment). Set `LANGCHAIN_OPENAI_TCP_KEEPALIVE=0` or pass `http_socket_options=()` to restore default proxy behavior, or supply `openai_proxy` / your own `http_client` / `http_async_client` to take full control.
+ok
+test_discovery_failure_stops_without_leaking_provider_message (test_deepseek_adapter.DeepSeekAdapterTests.test_discovery_failure_stops_without_leaking_provider_message) ... ok
+test_display_name_selects_same_model_and_preserves_configuration (test_deepseek_adapter.DeepSeekAdapterTests.test_display_name_selects_same_model_and_preserves_configuration) ... ok
+test_unclassified_runtime_error_cannot_leak_raw_details (test_deepseek_adapter.DeepSeekAdapterTests.test_unclassified_runtime_error_cannot_leak_raw_details) ... ok
+test_unknown_display_name_never_falls_back_to_another_model (test_deepseek_adapter.DeepSeekAdapterTests.test_unknown_display_name_never_falls_back_to_another_model) ... ok
+test_archived_answer_cannot_override_current_capability (test_evidence.EvidenceTests.test_archived_answer_cannot_override_current_capability) ... ok
+test_current_conflict_requires_review (test_evidence.EvidenceTests.test_current_conflict_requires_review) ... ok
+test_current_supported_has_exact_source_quote (test_evidence.EvidenceTests.test_current_supported_has_exact_source_quote) ... ok
+test_empty_and_oversized_input_rejected (test_evidence.EvidenceTests.test_empty_and_oversized_input_rejected) ... ok
+test_explicit_unsupported (test_evidence.EvidenceTests.test_explicit_unsupported) ... ok
+test_export_all_modules_requires_scope_confirmation (test_evidence.EvidenceTests.test_export_all_modules_requires_scope_confirmation) ... ok
+test_extra_metric_cannot_be_hidden_under_supported_feature (test_evidence.EvidenceTests.test_extra_metric_cannot_be_hidden_under_supported_feature) ... ok
+test_missing_sla_never_creates_two_second_promise (test_evidence.EvidenceTests.test_missing_sla_never_creates_two_second_promise) ... ok
+test_multiple_requests_are_not_dropped (test_evidence.EvidenceTests.test_multiple_requests_are_not_dropped) ... ok
+test_private_deployment_context_changes_sso_result (test_evidence.EvidenceTests.test_private_deployment_context_changes_sso_result) ... ok
+test_roadmap_is_pending (test_evidence.EvidenceTests.test_roadmap_is_pending) ... ok
+test_sales_cannot_retrieve_internal_document (test_evidence.EvidenceTests.test_sales_cannot_retrieve_internal_document) ... ok
+test_unconfirmed_free_deployment_is_not_supported (test_evidence.EvidenceTests.test_unconfirmed_free_deployment_is_not_supported) ... ok
+test_unknown_request_has_no_fabricated_evidence (test_evidence.EvidenceTests.test_unknown_request_has_no_fabricated_evidence) ... ok
+test_unknown_secondary_scope_cannot_be_supported (test_evidence.EvidenceTests.test_unknown_secondary_scope_cannot_be_supported) ... ok
+test_unsupported_feature_stays_unsupported_with_extra_parameters (test_evidence.EvidenceTests.test_unsupported_feature_stays_unsupported_with_extra_parameters) ... ok
+test_duplicate_headers_rejected (test_import.ImportTests.test_duplicate_headers_rejected) ... ok
+test_missing_cell_reports_value_error (test_import.ImportTests.test_missing_cell_reports_value_error) ... ok
+test_utf8_bom_and_quoted_comma_preserved (test_import.ImportTests.test_utf8_bom_and_quoted_comma_preserved) ... ok
+test_live_extraction_cannot_skip_another_known_capability (test_live_boundary.LiveBoundaryTests.test_live_extraction_cannot_skip_another_known_capability) ... ok
+test_live_extraction_does_not_drop_customer_parameter (test_live_boundary.LiveBoundaryTests.test_live_extraction_does_not_drop_customer_parameter) ... ok
+test_live_network_failure_does_not_become_demo_result (test_live_boundary.LiveBoundaryTests.test_live_network_failure_does_not_become_demo_result) ... ok
+test_live_success_uses_guarded_evidence_and_records_usage (test_live_boundary.LiveBoundaryTests.test_live_success_uses_guarded_evidence_and_records_usage) ... ok
+test_active_review_lock_is_not_recovered_as_stale (test_workflow.WorkflowTests.test_active_review_lock_is_not_recovered_as_stale) ... ok
+test_csv_formula_text_is_neutralized (test_workflow.WorkflowTests.test_csv_formula_text_is_neutralized) ... ok
+test_duplicate_submission_uses_one_task (test_workflow.WorkflowTests.test_duplicate_submission_uses_one_task) ... ok
+test_failed_live_task_has_explicit_retry_after_configuration_fix (test_workflow.WorkflowTests.test_failed_live_task_has_explicit_retry_after_configuration_fix) ... ok
+test_graph_pauses_until_review (test_workflow.WorkflowTests.test_graph_pauses_until_review) ... ok
+test_interrupted_finalize_resumes_saved_approval (test_workflow.WorkflowTests.test_interrupted_finalize_resumes_saved_approval) ... ok
+test_interrupted_review_is_recoverable_after_restart (test_workflow.WorkflowTests.test_interrupted_review_is_recoverable_after_restart) ... ok
+test_partial_review_rejected_without_state_mutation (test_workflow.WorkflowTests.test_partial_review_rejected_without_state_mutation) ... ok
+test_pending_answer_cannot_be_upgraded_by_edit (test_workflow.WorkflowTests.test_pending_answer_cannot_be_upgraded_by_edit) ... ok
+test_pending_default_drafts_can_be_approved_without_promises (test_workflow.WorkflowTests.test_pending_default_drafts_can_be_approved_without_promises) ... ok
+test_resume_review_after_restart_before_approval (test_workflow.WorkflowTests.test_resume_review_after_restart_before_approval) ... ok
+test_returned_item_does_not_export_as_approved (test_workflow.WorkflowTests.test_returned_item_does_not_export_as_approved) ... ok
+test_review_and_checkpoint_survive_restart (test_workflow.WorkflowTests.test_review_and_checkpoint_survive_restart) ... ok
+test_sales_cannot_approve (test_workflow.WorkflowTests.test_sales_cannot_approve) ... ok
+test_sales_cannot_read_internal_task (test_workflow.WorkflowTests.test_sales_cannot_read_internal_task) ... ok
+test_second_review_cannot_overwrite_first (test_workflow.WorkflowTests.test_second_review_cannot_overwrite_first) ... ok
+test_substantive_edits_must_return_to_verification (test_workflow.WorkflowTests.test_substantive_edits_must_return_to_verification) ... ok
+test_supported_capability_does_not_create_gap_ticket (test_workflow.WorkflowTests.test_supported_capability_does_not_create_gap_ticket) ... ok
+test_test_ticket_requires_approved_gap_and_is_idempotent (test_workflow.WorkflowTests.test_test_ticket_requires_approved_gap_and_is_idempotent) ... ok
+test_unreviewed_task_cannot_export_approved_answer (test_workflow.WorkflowTests.test_unreviewed_task_cannot_export_approved_answer) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 6.354s
+
+OK
